@@ -1,0 +1,71 @@
+.hidden{
+    display:none;
+}
+
+img{
+    position: absolute;
+    width:100%;
+    height:100%;
+    left:0px;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    z-index: -1;
+    opacity: 60%;
+    object-fit:contain;
+}
+body{
+    background-color:black;
+    display:flex;
+    align-items: center;
+}
+.clock{
+    right:10px;
+    bottom:0px;
+    position:fixed;
+    color:silver;
+}
+
+.login-form{
+    position:fixed;
+    justify-content: center;
+    align-items: center;
+    top:40px;
+}
+.greeting{
+    position:fixed;
+    color:silver;
+    left:10px;
+    top:0px;
+    font-weight: 600;
+}
+
+.quotes{
+    color:silver;
+    position:fixed;
+    justify-content: center;
+    align-items: center;
+    bottom:10px;
+    font-weight: 600;
+}
+.quotes span:first-child{
+    font-size: 19px;
+    display: block;
+}
+.todo-form{
+    position:fixed;
+    top:80px;
+}
+
+.todo-list{
+    position:fixed;
+    top:100px;
+    color:white;
+    font-weight: 600;
+}
+.weather{
+    position: fixed;
+    top:0px;
+    right:10px;
+    color:silver;
+}
